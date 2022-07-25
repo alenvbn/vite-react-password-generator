@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom";
 import MainNavbar from "./MainNavbar";
+import Home from './Home'
 function Layout() {
   return (
     <div style={{ height: "100%",backgroundColor: "#212121" }}>
@@ -7,7 +7,7 @@ function Layout() {
       <MainNavbar />
       {/* Content */}
       <div className="container p-5 text-light">
-        <Outlet />
+        <Home />
       </div>
     </div>
   );

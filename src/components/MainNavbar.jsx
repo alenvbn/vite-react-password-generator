@@ -7,19 +7,19 @@ function MainNavbar() {
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <NavLink className="navbar-brand" to="/vite-react-password-generator/home">
+          <NavLink className="navbar-brand" to="/vite-react-password-generator/">
             Password Generator
           </NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/vite-react-password-generator/home">
+                <NavLink className="nav-link" to="/vite-react-password-generator/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/vite-react-password-generator/about">
+                <NavLink className="nav-link" to="/vite-react-password-generator/">
                   About
                 </NavLink>
               </li>
