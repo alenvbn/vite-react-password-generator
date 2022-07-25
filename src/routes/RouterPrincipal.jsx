@@ -8,9 +8,8 @@ function RouterPrincipal() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/*" element={<Layout />}>
+        <Route path="/vite-react-password-generator/*" element={<Layout />}>
           <Route path="home" element={<Home />} />
-          <Route path="password" element={<Password />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
